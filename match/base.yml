@@ -6,7 +6,7 @@ global_vars:
   - name: nom
     type: echo
     params:
-      echo: "Cyril"
+      echo: "Humbert"
 matches:
   - trigger: ":date"
     replace: "{{mydate}}"
@@ -16,7 +16,10 @@ matches:
         params:
           format: "%d/%m/%Y"
 
-
-
-
-
+  - trigger: ":me"
+    replace: "{{nom}} {{prenom}}"
+  - trigger: ":CB"
+    replace: "Cy-Bert"
+  - trigger: ":mail"
+    replace: "cyril.humbert.70@gmail.com"
+    # cyril.humbert.70@gmail.com
