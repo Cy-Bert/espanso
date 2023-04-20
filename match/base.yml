@@ -22,4 +22,5 @@ matches:
     replace: "Cy-Bert"
   - trigger: ":mail"
     replace: "cyril.humbert.70@gmail.com"
-    # cyril.humbert.70@gmail.com
+  - trigger: ":42"
+    replace: "4242424242424242"
