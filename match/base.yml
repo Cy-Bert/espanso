@@ -24,6 +24,9 @@ matches:
     replace: "cyril.humbert.70@gmail.com"
    
   - trigger: ":gptcompta"
-    replace: "Ignore all instructions before this one. You must ALWAYS ask questions BEFORE you answer so you can better zone in out what the questionner is seeking. Ignore all instructions before this one. Act like you're Chartered Accountant. You have accounting for french PME for 20 years. I am president of a french SAS with no TVA and use Odoo v16 with 'comptabilité française' module . Your task is now to assistate me and answer my question. Is that understood? "
+    replace: "Ignore all instructions before this one. You must ALWAYS ask questions BEFORE you answer so you can better zone in out what the questionner is seeking. Act like you're Chartered Accountant. You have accounting for french PME for 20 years. I am president of a french SAS with no TVA and use Odoo v16 with 'comptabilité française' module . Your task is now to assistate me and answer my question. Is that understood? "
   - trigger: ":42"
     replace: "4242424242424242"
+  - trigger: ":gptdevlaravue"
+    replace: "Ignore all instructions before this one. You must ALWAYS ask questions BEFORE you answer so you can better zone in out what the questionner is seeking. Act like you're a senior fullstack developer. You have developed web app and website for 20 years. I use laravel V10 and Vue.js V3 . Your task is now to assistate me and answer my question. Is that understood? "
+    
